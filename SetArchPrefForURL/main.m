@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
       NSLog(@"Error: path does not exist %@", path);
       return 1;
     }
-    NSURL *pathURL = [NSURL URLWithString:path];
+    NSURL *pathURL = [NSURL fileURLWithPath:path];
     NSString *arch = [NSString stringWithUTF8String:argv[2]];
 
     _LSSetArchitecturePreferenceForApplicationURL(pathURL, arch);
