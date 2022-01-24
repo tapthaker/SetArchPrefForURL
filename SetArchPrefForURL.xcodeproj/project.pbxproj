@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		185865C7279F36AA00988D1C /* SetArchPrefForURL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetArchPrefForURL; sourceTree = BUILT_PRODUCTS_DIR; };
 		185865CA279F36AA00988D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185865D1279F36C700988D1C /* LaunchServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchServices.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				185865CA279F36AA00988D1C /* main.m */,
+				185865D1279F36C700988D1C /* LaunchServices.h */,
 			);
 			path = SetArchPrefForURL;
 			sourceTree = "<group>";
